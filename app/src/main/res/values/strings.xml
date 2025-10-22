@@ -15,5 +15,11 @@
     <string name="menu_home">Bienvenido</string>
     <string name="menu_gallery">Agendar Cita</string>
     <string name="menu_slideshow">Editar Usuario</string>
+    <string-array name="tipos_documento">
+        <item>DNI</item>
+        <item>Pasaporte</item>
+        <item>Carnet de extranjería</item>
+    </string-array>
+
 </resources>
 

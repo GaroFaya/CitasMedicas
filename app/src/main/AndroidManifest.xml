@@ -29,6 +29,11 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="true"
+            android:label="Registro" />
+
     </application>
 
 </manifest>

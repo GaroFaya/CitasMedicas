@@ -35,6 +35,14 @@ class LoginActivity : AppCompatActivity() {
         // Inicializamos vistas y eventos siempre en onCreate
         inicializarComponentes()
         inicializarEventos()
+
+        // Botón para ir a RegistroActivity
+        val btnRegistro: Button = findViewById(R.id.btnRegistrarse)
+        btnRegistro.setOnClickListener {
+            val intent = Intent(this, RegistroActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onStart() {
