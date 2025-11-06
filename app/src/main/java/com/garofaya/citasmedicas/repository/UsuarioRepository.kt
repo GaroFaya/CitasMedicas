@@ -17,7 +17,7 @@ class UsuarioRepository {
 
     init {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://medisol-health.onrender.com/api/")
+            .baseUrl("https://apis.ntechs.net.pe/medisol/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 

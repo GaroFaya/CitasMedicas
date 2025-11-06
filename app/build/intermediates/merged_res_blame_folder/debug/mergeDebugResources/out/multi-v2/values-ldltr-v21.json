@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.garofaya.citasmedicas.app-mergeDebugResources-47:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\8.13\\transforms\\f31f3cce26ffd9b75edf134b9e3d4197\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

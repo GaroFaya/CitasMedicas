@@ -58,7 +58,6 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-
     private fun inicializarComponentes() {
         txtDNI = findViewById(R.id.txtDniLogin) // ✅ ID correcto del XML
         txtPass = findViewById(R.id.txtPassLogin)

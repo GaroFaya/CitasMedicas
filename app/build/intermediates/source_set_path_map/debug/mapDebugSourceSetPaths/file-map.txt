@@ -1,0 +1,53 @@
+com.garofaya.citasmedicas.app-core-runtime-2.2.0-0 C:\Users\USUARIO\.gradle\caches\8.13\transforms\015f9bb4945d0220cac4c7513bc4d22f\transformed\core-runtime-2.2.0\res
+com.garofaya.citasmedicas.app-savedstate-1.2.1-1 C:\Users\USUARIO\.gradle\caches\8.13\transforms\045468aecc98eeb9b90d636dab3bd9f6\transformed\savedstate-1.2.1\res
+com.garofaya.citasmedicas.app-drawerlayout-1.1.1-2 C:\Users\USUARIO\.gradle\caches\8.13\transforms\0b6394e7ca3bb7392b7a8c8bb8a8bdac\transformed\drawerlayout-1.1.1\res
+com.garofaya.citasmedicas.app-navigation-ui-2.7.0-3 C:\Users\USUARIO\.gradle\caches\8.13\transforms\0c2eed778dfe897b131a6bcff83c43d2\transformed\navigation-ui-2.7.0\res
+com.garofaya.citasmedicas.app-fragment-ktx-1.6.0-4 C:\Users\USUARIO\.gradle\caches\8.13\transforms\1395afaa5d924c9cabf7607b957c20df\transformed\fragment-ktx-1.6.0\res
+com.garofaya.citasmedicas.app-navigation-fragment-2.7.0-5 C:\Users\USUARIO\.gradle\caches\8.13\transforms\22ed11ef47fe2aa33b357218c46453fd\transformed\navigation-fragment-2.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-viewmodel-2.7.0-6 C:\Users\USUARIO\.gradle\caches\8.13\transforms\23b179a5a5e65f426ab9189f6e5f009d\transformed\lifecycle-viewmodel-2.7.0\res
+com.garofaya.citasmedicas.app-navigation-common-2.7.0-7 C:\Users\USUARIO\.gradle\caches\8.13\transforms\27717cab56b0ba529e41173b9b487fc1\transformed\navigation-common-2.7.0\res
+com.garofaya.citasmedicas.app-fragment-1.6.0-8 C:\Users\USUARIO\.gradle\caches\8.13\transforms\2cc0fc273d8b3d5fdb3d224a45581529\transformed\fragment-1.6.0\res
+com.garofaya.citasmedicas.app-core-1.13.0-9 C:\Users\USUARIO\.gradle\caches\8.13\transforms\2f27607785139a144b3d03c237f28f55\transformed\core-1.13.0\res
+com.garofaya.citasmedicas.app-lifecycle-livedata-core-ktx-2.7.0-10 C:\Users\USUARIO\.gradle\caches\8.13\transforms\38c0987364f706bcb9680ac3df59cd75\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-emoji2-views-helper-1.3.0-11 C:\Users\USUARIO\.gradle\caches\8.13\transforms\3981a0488294a6e7272fbe216c466428\transformed\emoji2-views-helper-1.3.0\res
+com.garofaya.citasmedicas.app-profileinstaller-1.4.0-12 C:\Users\USUARIO\.gradle\caches\8.13\transforms\47c539e17a6fa7b0d6c3b99c0d901997\transformed\profileinstaller-1.4.0\res
+com.garofaya.citasmedicas.app-transition-1.5.0-13 C:\Users\USUARIO\.gradle\caches\8.13\transforms\49623831e389034e47e2202fcba1f113\transformed\transition-1.5.0\res
+com.garofaya.citasmedicas.app-appcompat-resources-1.7.0-14 C:\Users\USUARIO\.gradle\caches\8.13\transforms\4d45283b98feb89b75b3ff72869d4197\transformed\appcompat-resources-1.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-livedata-2.7.0-15 C:\Users\USUARIO\.gradle\caches\8.13\transforms\4d57b731683782333777f4e5f67bd173\transformed\lifecycle-livedata-2.7.0\res
+com.garofaya.citasmedicas.app-constraintlayout-2.2.0-16 C:\Users\USUARIO\.gradle\caches\8.13\transforms\512b7d8274fa0e17b08f10db0dd50c7d\transformed\constraintlayout-2.2.0\res
+com.garofaya.citasmedicas.app-lifecycle-runtime-ktx-2.7.0-17 C:\Users\USUARIO\.gradle\caches\8.13\transforms\5777ff6bccc2b7df8ee14f042409d444\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-livedata-ktx-2.7.0-18 C:\Users\USUARIO\.gradle\caches\8.13\transforms\5bf7dccd9d2720b9096e986c05669820\transformed\lifecycle-livedata-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-savedstate-ktx-1.2.1-19 C:\Users\USUARIO\.gradle\caches\8.13\transforms\6b60d7139dcc46f70a0f37320e626339\transformed\savedstate-ktx-1.2.1\res
+com.garofaya.citasmedicas.app-navigation-fragment-ktx-2.7.0-20 C:\Users\USUARIO\.gradle\caches\8.13\transforms\6ddeee3542f585aa9f66fc3e54a8b2ff\transformed\navigation-fragment-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-navigation-runtime-ktx-2.7.0-21 C:\Users\USUARIO\.gradle\caches\8.13\transforms\717d41824ff613a4347bcc6cf58726a4\transformed\navigation-runtime-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-navigation-runtime-2.7.0-22 C:\Users\USUARIO\.gradle\caches\8.13\transforms\74cbefd1674b46057d6ea0b7800fe71d\transformed\navigation-runtime-2.7.0\res
+com.garofaya.citasmedicas.app-viewpager2-1.0.0-23 C:\Users\USUARIO\.gradle\caches\8.13\transforms\7de8b0323b1334b9df2f8bf0ffedf23e\transformed\viewpager2-1.0.0\res
+com.garofaya.citasmedicas.app-core-ktx-1.13.0-24 C:\Users\USUARIO\.gradle\caches\8.13\transforms\8777efb95ad013bba2feaa890b5e0b98\transformed\core-ktx-1.13.0\res
+com.garofaya.citasmedicas.app-navigation-ui-ktx-2.7.0-25 C:\Users\USUARIO\.gradle\caches\8.13\transforms\8e77f23842181b91e2a4d03250889727\transformed\navigation-ui-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-startup-runtime-1.1.1-26 C:\Users\USUARIO\.gradle\caches\8.13\transforms\8ffb3117c1960a93e6dde13a45a527c2\transformed\startup-runtime-1.1.1\res
+com.garofaya.citasmedicas.app-lifecycle-viewmodel-ktx-2.7.0-27 C:\Users\USUARIO\.gradle\caches\8.13\transforms\90025a4c838959fe44b7dde1e4576bc6\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-livedata-core-2.7.0-28 C:\Users\USUARIO\.gradle\caches\8.13\transforms\90067e0bf990e12445bc69505b3e232e\transformed\lifecycle-livedata-core-2.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-viewmodel-savedstate-2.7.0-29 C:\Users\USUARIO\.gradle\caches\8.13\transforms\9d6cebfd8f60474a582f2bd81956bde1\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.garofaya.citasmedicas.app-activity-1.9.0-30 C:\Users\USUARIO\.gradle\caches\8.13\transforms\b014c9131cc67de84a7c3d1307817793\transformed\activity-1.9.0\res
+com.garofaya.citasmedicas.app-navigation-common-ktx-2.7.0-31 C:\Users\USUARIO\.gradle\caches\8.13\transforms\bb2fac27cd94f5147d4f4f9a7d1483d9\transformed\navigation-common-ktx-2.7.0\res
+com.garofaya.citasmedicas.app-slidingpanelayout-1.2.0-32 C:\Users\USUARIO\.gradle\caches\8.13\transforms\be74ecb3e9e8546274f0adf572ae8290\transformed\slidingpanelayout-1.2.0\res
+com.garofaya.citasmedicas.app-emoji2-1.3.0-33 C:\Users\USUARIO\.gradle\caches\8.13\transforms\d7e1881936920039f53043e9d72d7dc5\transformed\emoji2-1.3.0\res
+com.garofaya.citasmedicas.app-coordinatorlayout-1.1.0-34 C:\Users\USUARIO\.gradle\caches\8.13\transforms\db70ec7f434abcecf986c3e66f682975\transformed\coordinatorlayout-1.1.0\res
+com.garofaya.citasmedicas.app-lifecycle-runtime-2.7.0-35 C:\Users\USUARIO\.gradle\caches\8.13\transforms\e0a1e437a1153e2d5749eb9d5b2afd83\transformed\lifecycle-runtime-2.7.0\res
+com.garofaya.citasmedicas.app-lifecycle-process-2.7.0-36 C:\Users\USUARIO\.gradle\caches\8.13\transforms\e0e5e6ae7803abe6a9d60c1674db316d\transformed\lifecycle-process-2.7.0\res
+com.garofaya.citasmedicas.app-recyclerview-1.1.0-37 C:\Users\USUARIO\.gradle\caches\8.13\transforms\e542a188fa376ebfeab57477418f6940\transformed\recyclerview-1.1.0\res
+com.garofaya.citasmedicas.app-annotation-experimental-1.5.0-38 C:\Users\USUARIO\.gradle\caches\8.13\transforms\e6e1809913e11d1d366c6481779b96cf\transformed\annotation-experimental-1.5.0\res
+com.garofaya.citasmedicas.app-activity-ktx-1.9.0-39 C:\Users\USUARIO\.gradle\caches\8.13\transforms\ecd1122a5f1ad239e6d615cc069ac1bb\transformed\activity-ktx-1.9.0\res
+com.garofaya.citasmedicas.app-room-ktx-2.8.0-40 C:\Users\USUARIO\.gradle\caches\8.13\transforms\edad9a89726195e514c0f5548ff12e26\transformed\room-ktx-2.8.0\res
+com.garofaya.citasmedicas.app-window-1.0.0-41 C:\Users\USUARIO\.gradle\caches\8.13\transforms\f21a0b9b9aebe75b55b938c8d7f641c3\transformed\window-1.0.0\res
+com.garofaya.citasmedicas.app-appcompat-1.7.0-42 C:\Users\USUARIO\.gradle\caches\8.13\transforms\f31f3cce26ffd9b75edf134b9e3d4197\transformed\appcompat-1.7.0\res
+com.garofaya.citasmedicas.app-cardview-1.0.0-43 C:\Users\USUARIO\.gradle\caches\8.13\transforms\f64d59637b2ea8ba819c4b7ed3c7b86a\transformed\cardview-1.0.0\res
+com.garofaya.citasmedicas.app-material-1.12.0-44 C:\Users\USUARIO\.gradle\caches\8.13\transforms\fbbecff0064fa7919b7880f0ca9245ce\transformed\material-1.12.0\res
+com.garofaya.citasmedicas.app-pngs-45 D:\Citas medicas\app\build\generated\res\pngs\debug
+com.garofaya.citasmedicas.app-resValues-46 D:\Citas medicas\app\build\generated\res\resValues\debug
+com.garofaya.citasmedicas.app-updated_navigation_xml-47 D:\Citas medicas\app\build\generated\updated_navigation_xml\debug
+com.garofaya.citasmedicas.app-packageDebugResources-48 D:\Citas medicas\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.garofaya.citasmedicas.app-packageDebugResources-49 D:\Citas medicas\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.garofaya.citasmedicas.app-debug-50 D:\Citas medicas\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.garofaya.citasmedicas.app-debug-51 D:\Citas medicas\app\src\debug\res
+com.garofaya.citasmedicas.app-main-52 D:\Citas medicas\app\src\main\res

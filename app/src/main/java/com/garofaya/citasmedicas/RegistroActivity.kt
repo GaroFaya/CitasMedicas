@@ -88,7 +88,7 @@ class RegistroActivity : AppCompatActivity() {
         val client = OkHttpClient.Builder().addInterceptor(interceptor).build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://medisol-health.onrender.com/api/")
+            .baseUrl("https://apis.ntechs.net.pe/medisol/api/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
