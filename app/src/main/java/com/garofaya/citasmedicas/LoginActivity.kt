@@ -1,5 +1,6 @@
 package com.garofaya.citasmedicas
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -32,34 +33,30 @@ class LoginActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
 
-        // Inicializamos vistas y eventos siempre en onCreate
         inicializarComponentes()
         inicializarEventos()
 
-        // Botón para ir a RegistroActivity
         val btnRegistro: Button = findViewById(R.id.btnRegistrarse)
         btnRegistro.setOnClickListener {
-            val intent = Intent(this, RegistroActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, RegistroActivity::class.java))
         }
-
     }
 
     override fun onStart() {
         super.onStart()
-        inicializarComponentes() // <-- siempre inicializa primero
+        inicializarComponentes()
         val localbase = LocalDataBase.getInstance(this)
         val usuarioDao = localbase.usuarioDao()
         val usuario = usuarioDao.listar() // usuario guardado en Room
         if (usuario != null) {
-            irHome(usuario.name, usuario.dni)
-        } else {
-            inicializarEventos()
+            // Forzar que token no sea nulo
+            val token = usuario.token ?: ""
+            irHome(usuario.name, usuario.dni, token)
         }
     }
 
     private fun inicializarComponentes() {
-        txtDNI = findViewById(R.id.txtDniLogin) // ✅ ID correcto del XML
+        txtDNI = findViewById(R.id.txtDniLogin)
         txtPass = findViewById(R.id.txtPassLogin)
         btnLogin = findViewById(R.id.btnIngresar)
         txtMensajeError = findViewById(R.id.txtMensajeError)
@@ -94,6 +91,7 @@ class LoginActivity : AppCompatActivity() {
                         val accessToken = jsonObjct.optString("access", "")
 
                         if (accessToken.isNotEmpty()) {
+                            // Guardar usuario en Room
                             val usuarioBd = Usuariodb(
                                 id = 1,
                                 name = "Usuario",
@@ -102,7 +100,17 @@ class LoginActivity : AppCompatActivity() {
                                 token = accessToken
                             )
                             guardarUsuariobd(usuarioBd)
-                            irHome(usuarioBd.name, usuarioBd.dni)
+
+                            // Guardar token y userId en SharedPreferences
+                            val sharedPref =
+                                getSharedPreferences("USER_PREFS", Context.MODE_PRIVATE)
+                            with(sharedPref.edit()) {
+                                putString("ACCESS_TOKEN", accessToken)
+                                putInt("USER_ID", 1) // Ajusta según ID real del usuario
+                                apply()
+                            }
+
+                            irHome(usuarioBd.name, usuarioBd.dni, accessToken)
                         } else {
                             txtMensajeError.text = "Error: respuesta del servidor inválida"
                             txtMensajeError.visibility = View.VISIBLE
@@ -130,10 +138,11 @@ class LoginActivity : AppCompatActivity() {
         usuarioDao.insert(usuario)
     }
 
-    private fun irHome(nombre: String, dni: String) {
+    private fun irHome(nombre: String, dni: String, token: String) {
         val intentHome = Intent(this, MainActivity::class.java)
         intentHome.putExtra("nombreUsuario", nombre)
         intentHome.putExtra("dniUsuario", dni)
+        intentHome.putExtra("accessToken", token)
         startActivity(intentHome)
         finish()
     }

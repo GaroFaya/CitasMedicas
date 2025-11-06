@@ -3,10 +3,10 @@ package com.garofaya.citasmedicas.ui.citas
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.garofaya.citasmedicas.api.models.RegistrarCitaResponse
+import com.garofaya.citasmedicas.api.models.ListarCitaResponse
 import com.garofaya.citasmedicas.databinding.ItemCitaBinding
 
-class CitasAdapter(private var citas: List<RegistrarCitaResponse>) :
+class CitasAdapter(private var citas: List<ListarCitaResponse>) :
     RecyclerView.Adapter<CitasAdapter.CitaViewHolder>() {
 
     class CitaViewHolder(val binding: ItemCitaBinding) : RecyclerView.ViewHolder(binding.root)
@@ -19,16 +19,16 @@ class CitasAdapter(private var citas: List<RegistrarCitaResponse>) :
     override fun onBindViewHolder(holder: CitaViewHolder, position: Int) {
         val cita = citas[position]
 
-        // Mostrar solo lo que existe
-        holder.binding.txtDoctor.text = "👨‍⚕️ ID Cita: ${cita.id ?: "N/A"}"
-        holder.binding.txtFecha.text = "📅 Mensaje: ${cita.mensaje ?: "Sin mensaje"}"
-        holder.binding.txtMotivo.text = "🩺 Error: ${cita.error ?: "N/A"}"
-        holder.binding.txtClinica.text = "🏥 N/A" // No tienes info de clínica
+        holder.binding.txtDoctor.text = "👨‍⚕️ Doctor: ${cita.doctor_nombre}"
+        holder.binding.txtClinica.text = "🏥 Clínica: ${cita.clinica_nombre}"
+        holder.binding.txtFecha.text = "📅 Fecha: ${cita.fecha} ${cita.hora_inicio} - ${cita.hora_fin}"
+        holder.binding.txtMotivo.text = "🩺 Motivo: ${cita.motivo}"
+        holder.binding.txtEstado.text = "⚡ Estado: ${cita.estado}"
     }
 
     override fun getItemCount(): Int = citas.size
 
-    fun actualizarCitas(nuevasCitas: List<RegistrarCitaResponse>) {
+    fun actualizarCitas(nuevasCitas: List<ListarCitaResponse>) {
         citas = nuevasCitas
         notifyDataSetChanged()
     }

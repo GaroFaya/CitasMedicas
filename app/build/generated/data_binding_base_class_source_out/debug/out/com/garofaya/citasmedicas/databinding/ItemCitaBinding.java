@@ -26,16 +26,21 @@ public final class ItemCitaBinding implements ViewBinding {
   public final TextView txtDoctor;
 
   @NonNull
+  public final TextView txtEstado;
+
+  @NonNull
   public final TextView txtFecha;
 
   @NonNull
   public final TextView txtMotivo;
 
   private ItemCitaBinding(@NonNull LinearLayout rootView, @NonNull TextView txtClinica,
-      @NonNull TextView txtDoctor, @NonNull TextView txtFecha, @NonNull TextView txtMotivo) {
+      @NonNull TextView txtDoctor, @NonNull TextView txtEstado, @NonNull TextView txtFecha,
+      @NonNull TextView txtMotivo) {
     this.rootView = rootView;
     this.txtClinica = txtClinica;
     this.txtDoctor = txtDoctor;
+    this.txtEstado = txtEstado;
     this.txtFecha = txtFecha;
     this.txtMotivo = txtMotivo;
   }
@@ -79,6 +84,12 @@ public final class ItemCitaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txtEstado;
+      TextView txtEstado = ViewBindings.findChildViewById(rootView, id);
+      if (txtEstado == null) {
+        break missingId;
+      }
+
       id = R.id.txtFecha;
       TextView txtFecha = ViewBindings.findChildViewById(rootView, id);
       if (txtFecha == null) {
@@ -91,8 +102,8 @@ public final class ItemCitaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemCitaBinding((LinearLayout) rootView, txtClinica, txtDoctor, txtFecha,
-          txtMotivo);
+      return new ItemCitaBinding((LinearLayout) rootView, txtClinica, txtDoctor, txtEstado,
+          txtFecha, txtMotivo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

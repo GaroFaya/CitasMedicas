@@ -3729,6 +3729,7 @@ int id txtDistrito 0x7f09021f
 int id txtDniLogin 0x7f090220
 int id txtDoctor 0x7f090221
 int id txtEmail 0x7f090222
+int id txtEstado 0x7f090244
 int id txtFecha 0x7f090223
 int id txtMensajeError 0x7f090224
 int id txtMotivo 0x7f090225

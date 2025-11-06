@@ -8,14 +8,14 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_bienvenido"
-            android:title="@string/menu_home" />
+            android:title="Bienvenido" />
         <item
             android:id="@+id/nav_citas"
             android:icon="@drawable/ic_cita"
-            android:title="@string/menu_gallery" />
+            android:title="Citas agendadas" />
         <item
             android:id="@+id/nav_editarusuario"
             android:icon="@drawable/ic_editar"
-            android:title="@string/menu_slideshow" />
+            android:title="Editar usuario" />
     </group>
 </menu>

@@ -32,4 +32,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#666" />
+
+    <!-- NUEVO TextView para mostrar el estado -->
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:text="Estado" />
+
 </LinearLayout>

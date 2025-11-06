@@ -1,54 +1,58 @@
 [
     {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\item_mensaje_usuario.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\item_mensaje_usuario.xml"
+    },
+    {
         "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/item_cita.xml",
         "source": "com.garofaya.citasmedicas.app-main-51:/layout/item_cita.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/app_bar_main.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\fragment_chatbot.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\fragment_chatbot.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/item_mensaje_bot.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/item_mensaje_bot.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/activity_registro.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/activity_registro.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\fragment_citas.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\fragment_citas.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/fragment_chatbot.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/fragment_chatbot.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\item_cita.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\item_cita.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/nav_header_main.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/nav_header_main.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\content_main.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/fragment_home.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\activity_registro.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\activity_registro.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/activity_main.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/activity_main.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/activity_login.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/activity_login.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\fragment_editarusuario.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\fragment_editarusuario.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/item_mensaje_usuario.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/item_mensaje_usuario.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/content_main.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/content_main.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/fragment_editarusuario.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/fragment_editarusuario.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.garofaya.citasmedicas.app-mergeDebugResources-48:/layout/fragment_citas.xml",
-        "source": "com.garofaya.citasmedicas.app-main-51:/layout/fragment_citas.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-mergeDebugResources-48:\\layout\\item_mensaje_bot.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.13\\com.garofaya.citasmedicas.app-main-51:\\layout\\item_mensaje_bot.xml"
     }
 ]
